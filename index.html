@@ -5,55 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Web site - html</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/2c827c8cca.js" corossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2c827c8cca.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- header -->
-    <nav>
+    <div class="navbar">
         <span>
-            <a href="#">About</a>
-            <a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a>
+            <a class="nav-item nav-about" href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
+            <a class="nav-item" href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a>
         </span>
         <span>
-            <a href="#">Gmail</a>
-            <a href="#">images</a>
-            <a href="#"><i class="fas fa-bars"></i></a>   <!-- CDN : content delivery network -->
-            <button>Sign in</button>    
+            <a class="nav-item" href="https://www.google.com/intl/en/gmail/about/">Gmail</a>
+            <a class="nav-item" href="#">images</a>
+            <a class="nav-item" href="#"><i class="fas fa-bars"></i></a>   <!-- CDN : content delivery network -->
+            <button class="gd_nd">Sign in</button>    
         </span>    
-    </nav>
+    </div>
     
    <!-- main -->
-    <div>
+    
+    <div class="main">
         <div>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png" alt="google log" width="272px"/>
+            <img src="https://www.google.com/logos/doodles/2024/double-cicada-brood-2024-6753651837110499-law.gif" alt="google log" width="375px" height="150px" />
         </div>
 
         <div> 
-            <a href="#"><i class="fas fa-search"></i></a> 
-            <input class="search-window" type="text">
-            <a href="#"><i class="fas fa-microphone"></i></a> 
+            <a href="#"><i class="fas fa-search search-icon"></i></a>            
+            <input class="search-window" type="text">           
+            <a class="mic-icon" href="#"><i class="fas fa-microphone "></i></a>
         </div>
 
         <div>
-            <button type="button">Google Search</button>
-            <button type="submit" formaction="">I'm Feeling Lucky</button>
+            <button class="button-area" type="button">Google Search</button>
+            <button class="button-area" type="submit" formaction="">I'm Feeling Lucky</button>
         </div>
+    </div>
+
+
+    <div class="empty-box">
     </div>
         
     <!-- footer -->
-    <div>
-        <span>
-            <a href="#">Advertising</a>
-            <a href="#">Business</a>
-             <a href="#">How Search works</a>
+    <div class="footer">
+        <span class="footer-bg">
+            <a class="footer-item" href="#">Advertising</a>
+            <a class="footer-item" href="#">Business</a>
+             <a class="footer-item" href="#">How Search works</a>
         </span>
-        <span>
-            <a href="https://sustainability.google/">Our third decade of climate action: join us</a>
+        <span class="footer-bg">
+            <a class="footer-item" href="https://sustainability.google/">Our third decade of climate action: join us</a>
         </span>   
-        <span>
-            <a href="#">Privacy</a>
-            <a href="#">Terms</a>
-            <a href="#">Settings</a>
+        <span class="footer-bg">
+            <a class="footer-item" href="#">Privacy</a>
+            <a class="footer-item" href="#">Terms</a>
+            <a class="footer-item" href="#">Settings</a>
         </span>           
     </div>    
 </body>

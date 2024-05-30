@@ -1,0 +1,179 @@
+body, input, button {
+    font-size: 14px;
+    font-family: Roboto, arial, sans-serif;
+    color: var(--COEmY);
+}
+
+.navbar {
+    display : flex;
+    justify-content: space-between;
+    margin: 14px;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #000000;
+    padding-right: 15px;   
+    font-size: 13px; 
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+
+.nav-about {
+    margin-left: 15px;
+}
+
+.gd_nd {
+    color: #ffffff;
+    background: #1a73e8;
+    border: 1px solid transparent;
+    margin-left: 4px;
+    width: 96px;
+    height: 36px;
+    border-radius: 4px;
+    font-family: Google Sans, Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: .25px;
+    line-height: 16px;
+    padding-right: 8px;
+}
+
+.gd_nd:hover {
+    background: #1b66c9;
+    border: 1px solid transparent;
+    box-shadow: 0 1px 3px 1px rgba(66, 64, 67, .15), 0 1px 2px 0 rgba(60, 64, 67, .3);
+   
+}
+
+/* main */
+
+.main {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.search-window { 
+    margin-top: 20px;
+    width: 584px;
+    height: 48px;
+    border-radius: 24px;
+    padding: 0 40px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+}
+
+.search-icon {
+    position: relative;  /* relative : 내가 있는 위치에서부터 움직이는 것  */
+    left: 40px;
+    color: #9aa0a6;
+
+}
+
+.mic-icon {
+    position: relative;  /* relative : 내가 있는 위치에서부터 움직이는 것  */
+    right: 40px;
+        
+    cursor: pointer;
+}
+
+
+/* .arrow_box {
+  display: none;
+  position: absolute;
+  width: 100px;
+  padding: 8px;
+  right: 0px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;  
+  border-radius: 8px;
+  background: #333;
+  color: #fff;
+  font-size: 14px;
+}
+
+.arrow_box:after {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -10px;
+  border: solid transparent;
+  border-color: rgba(51, 51, 51, 0);
+  border-bottom-color: #333;
+  border-width: 10px;
+  pointer-events: none;
+  content: " ";
+}
+
+.mic-icon:hover + p.arrow_box {
+  display: block;
+} */
+
+.button-area {
+    padding-top: 18px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Roboto, arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.button-area:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.empty-box {
+    height: 230px;
+}
+
+
+/* footer */
+
+
+.footer {
+    
+    display:flex;
+    justify-content: space-between;
+
+    background: #f2f2f2;
+    
+    height: 50px;
+   
+}
+
+body {
+    margin: 0;
+}
+
+
+.footer-bg {
+    padding: 25px;
+
+}
+
+.footer-item {
+    text-decoration: none;
+    color: #000000;
+    padding: 0 5px;
+    
+}
+
