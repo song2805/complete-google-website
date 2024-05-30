@@ -7,7 +7,7 @@ body, input, button {
 .navbar {
     display : flex;
     justify-content: space-between;
-    margin: 14px;
+    margin: 20px;
 }
 
 .nav-item {
@@ -38,7 +38,9 @@ body, input, button {
     font-size: 14px;
     letter-spacing: .25px;
     line-height: 16px;
-    padding-right: 8px;
+    /* padding-right: 8px; */
+    padding: 9px 23px;
+    text-align: center;
 }
 
 .gd_nd:hover {
@@ -175,6 +177,29 @@ body, input, button {
    
 }
 
+
+
+.footer-bg {
+    padding: 15px;
+}
+
+.leaf-bg {
+    position: relative;
+    left : -47px;
+}
+
+.footer-item {
+    text-decoration: none;
+    color: #000000;
+    padding: 0 15px;
+    
+}
+
+.footer-item:hover {
+    text-decoration: underline;
+}
+
+
 .leaf-icon {
     height: 14px;
     margin-right: -6px;
@@ -182,22 +207,5 @@ body, input, button {
 
 body {
     margin: 0;
-}
-
-
-.footer-bg {
-    padding: 25px;
-
-}
-
-.footer-item {
-    text-decoration: none;
-    color: #000000;
-    padding: 0 5px;
-    
-}
-
-.footer-item:hover {
-    text-decoration: underline;
 }
 
