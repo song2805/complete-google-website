@@ -50,6 +50,18 @@ body, input, button {
    
 }
 
+.menu_radius {
+    /* border-radius: 100px;
+    background-color: #9aa0a6; */
+}
+
+.menu_radius:hover {
+    border-radius: 100px;
+    background-color: #cbd0d4;
+    margin: -10px;
+    padding: 10px;
+}
+
 /* main */
 
 .main {
@@ -185,14 +197,13 @@ body, input, button {
 
 .leaf-bg {
     position: relative;
-    left : -47px;
+    left : -62px;
 }
 
 .footer-item {
     text-decoration: none;
     color: #000000;
-    padding: 0 15px;
-    
+    padding: 0 15px;    
 }
 
 .footer-item:hover {
