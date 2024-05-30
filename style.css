@@ -1,8 +1,15 @@
+body {
+    margin: 0;
+}
+
 body, input, button {
     font-size: 14px;
     font-family: Roboto, arial, sans-serif;
     color: var(--COEmY);
 }
+
+
+/* header */
 
 .navbar {
     display : flex;
@@ -46,18 +53,12 @@ body, input, button {
 .gd_nd:hover {
     background: #1b66c9;
     border: 1px solid transparent;
-    box-shadow: 0 1px 3px 1px rgba(66, 64, 67, .15), 0 1px 2px 0 rgba(60, 64, 67, .3);
-   
-}
-
-.menu_radius {
-    /* border-radius: 100px;
-    background-color: #9aa0a6; */
+    box-shadow: 0 1px 3px 1px rgba(66, 64, 67, .15), 0 1px 2px 0 rgba(60, 64, 67, .3);   
 }
 
 .menu_radius:hover {
     border-radius: 100px;
-    background-color: #cbd0d4;
+    background-color: rgba(60, 64, 67, .08);
     margin: -10px;
     padding: 10px;
 }
@@ -86,7 +87,6 @@ body, input, button {
     position: relative;  /* relative : 내가 있는 위치에서부터 움직이는 것  */
     left: 40px;
     color: #9aa0a6;
-
 }
 
 .mic-icon {
@@ -95,39 +95,6 @@ body, input, button {
     color: #9aa0a6;    
 }
 
-
-/* .arrow_box {
-  display: none;
-  position: absolute;
-  width: 100px;
-  padding: 8px;
-  right: 0px;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;  
-  border-radius: 8px;
-  background: #333;
-  color: #fff;
-  font-size: 14px;
-}
-
-.arrow_box:after {
-  position: absolute;
-  bottom: 100%;
-  left: 50%;
-  width: 0;
-  height: 0;
-  margin-left: -10px;
-  border: solid transparent;
-  border-color: rgba(51, 51, 51, 0);
-  border-bottom-color: #333;
-  border-width: 10px;
-  pointer-events: none;
-  content: " ";
-}
-
-.mic-icon:hover + p.arrow_box {
-  display: block;
-} */
 
 .button-area {
     padding-top: 18px;
@@ -174,22 +141,15 @@ body, input, button {
 
 /* footer */
 
-
 .footer {
     position: absolute;
     bottom : 0px;
     width: 100%;
-    
     display:flex;
     justify-content: space-between;
-
-    background: #f2f2f2;
-    
+    background: #f2f2f2;    
     height: 50px;
-   
 }
-
-
 
 .footer-bg {
     padding: 15px;
@@ -197,8 +157,14 @@ body, input, button {
 
 .leaf-bg {
     position: relative;
-    left : -62px;
+    left : -64px;
 }
+
+.leaf-icon {
+    height: 14px;
+    margin-right: -6px;
+}
+
 
 .footer-item {
     text-decoration: none;
@@ -209,14 +175,3 @@ body, input, button {
 .footer-item:hover {
     text-decoration: underline;
 }
-
-
-.leaf-icon {
-    height: 14px;
-    margin-right: -6px;
-}
-
-body {
-    margin: 0;
-}
-
