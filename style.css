@@ -78,8 +78,7 @@ body, input, button {
 .mic-icon {
     position: relative;  /* relative : 내가 있는 위치에서부터 움직이는 것  */
     right: 40px;
-        
-    cursor: pointer;
+    color: #9aa0a6;    
 }
 
 
@@ -141,6 +140,19 @@ body, input, button {
     color: #202124;
 }
 
+
+
+.favorite-in-language {
+    text-decoration: none;
+    color: black;
+}
+
+.favorite-in-language:hover {
+    text-decoration: underline;
+}
+
+
+
 .empty-box {
     height: 230px;
 }
@@ -150,6 +162,9 @@ body, input, button {
 
 
 .footer {
+    position: absolute;
+    bottom : 0px;
+    width: 100%;
     
     display:flex;
     justify-content: space-between;
@@ -158,6 +173,11 @@ body, input, button {
     
     height: 50px;
    
+}
+
+.leaf-icon {
+    height: 14px;
+    margin-right: -6px;
 }
 
 body {
@@ -175,5 +195,9 @@ body {
     color: #000000;
     padding: 0 5px;
     
+}
+
+.footer-item:hover {
+    text-decoration: underline;
 }
 
